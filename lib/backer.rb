@@ -6,9 +6,8 @@ class Backer
     @name=name
     @backed_projects =[]
   end
-  def back_project (project)
-    project=Project.new(self)
-    @backed_projects << project
+  def back_project
+   
    # binding.pry
   end
 end
