@@ -10,6 +10,6 @@ class Backer
     @backed_projects << project
    # @backers << self
     #expect(hoverboard.backers).to include(logan)
-   binding.pry
+   #binding.pry
   end
 end
