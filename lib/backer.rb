@@ -8,6 +8,8 @@ class Backer
   end
   def back_project (project)
     @backed_projects << project
-   # binding.pry
+    @backers << self
+    #expect(hoverboard.backers).to include(logan)
+   binding.pry
   end
 end
